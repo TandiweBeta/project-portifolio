@@ -174,7 +174,7 @@ p{
   background-color: #fff;
 }
 footer{
-  margin: 60px 0;
+  padding: 60px 0;
 }
 footer.email-link{
   text-decoration: none;
@@ -186,7 +186,7 @@ footer.email-link:hover{
   color: var(--branding-color);
 }
 footer .social-links a{
-margin: 0 20px;
+margin: 0 30px;
 color: var(--branding-color);
 background-color: var(--secondary-color);
 padding:15px 24px ;
@@ -216,4 +216,16 @@ footer .email-link{
 }
 footer .email-link:hover{
   color: var(--branding-color);
+}
+.contact-links{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+.contact-links:hover{
+ color: var(--branding-color);
+}
+.contact-page{
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
